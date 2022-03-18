@@ -1,2 +1,4 @@
 configurations.maybeCreate("default")
-artifacts.add("default", file('ota.aar'))
+artifacts.add("default", file('ota.aar')) {
+    version = "3.4.0"
+}

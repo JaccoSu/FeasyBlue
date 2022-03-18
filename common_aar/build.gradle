@@ -1,2 +1,4 @@
 configurations.maybeCreate("default")
-artifacts.add("default", file('common.aar'))
+artifacts.add("default", file('common.aar')) {
+    version = "3.4.0"
+}
