@@ -43,7 +43,8 @@ dependencies {
 
     def online = true
 
-    if (online) {implementation 'com.github.LaserPeckerIst:FeasyBlue:3.4.0.4'
+    if (online) {
+        implementation 'com.github.LaserPeckerIst:FeasyBlue:3.4.0.4'
     } else {
         implementation project(':ble')
         implementation project(':common')
